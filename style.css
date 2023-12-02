@@ -1,0 +1,91 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+input{
+    height: 40px;
+    border: 1px solid #afaeae;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #767373;
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+tr,
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 33%;
+  }
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.btn1{
+    width: 100%;
+    color: rgb(231, 226, 226);
+    background-color: rgb(20, 117, 201);
+} 
+.buttons-in{
+    margin-top: 10px;
+    display: flex;
+   gap: 30px;
+}
+.delete,.edit{
+    width: 48%;
+    color: rgb(231, 226, 226);
+    background-color: rgb(20, 117, 201);
+}
+.content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.logo p {
+    font-size: 50px;
+    letter-spacing: 5px;
+
+}
+
+.logo p i {
+    color: rgb(11, 117, 183);
+    margin-right: 5px;
+}
+
+.logo p span {
+    color: rgb(24, 85, 135);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+
+}
+.radios{
+    display: flex;
+    gap: 30px;
+ 
+
+}
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
